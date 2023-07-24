@@ -157,3 +157,14 @@ button {
     justify-content: center;
     padding: 8px;
 }
+
+.rightButton button {
+    padding: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white; 
+    padding: 16px;
+}
