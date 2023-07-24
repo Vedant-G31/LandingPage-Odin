@@ -65,3 +65,36 @@ button {
     padding: 4px;
     border-style: none;
 }
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+
+}
+
+.infoContainer .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.information {
+    display: flex;
+    gap: 24px;
+    padding: 8px;
+}
+
+.info {
+    display: flex;
+    max-width: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.info img {
+    max-width: 150px;
+    max-height: 150px;
+}
