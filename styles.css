@@ -5,20 +5,29 @@ body {
     flex-direction: column;
 
 }
+
+
 .header {
     background: #1F2937;
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 0;
-    padding-top: 4px;
-    padding: 0 16px;
+    padding: 16px 16px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+
 }
 
 img {
     max-width: 600px;
+    max-height: 400px;
     padding: 8px;
     border-radius: 25px;
 }
@@ -44,9 +53,8 @@ img {
     display: flex;
     flex-direction: column;    
     flex-wrap: wrap;
-    max-width: 400px;
+    max-width: 600px;
     margin: 16px;
-    padding: 8px;
 }
 
 .mainTitle {
@@ -92,6 +100,7 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    color: #303a47;
 }
 
 .info img {
