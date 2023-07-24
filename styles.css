@@ -20,6 +20,7 @@ body {
 img {
     max-width: 600px;
     padding: 8px;
+    border-radius: 25px;
 }
 
 .headerLinks {
@@ -36,6 +37,7 @@ img {
     display: flex;
     padding: 8px;
     justify-content: center;
+    padding-bottom: 16px;
 }
 
 .contextContainer {
@@ -49,7 +51,17 @@ img {
 
 .mainTitle {
     font-size: 48px;
+    line-height: 48px;
     font-weight: bolder;
     margin: 0;
     color: #F9FAF8;
+}
+
+button {
+    background-color:#3882F6;
+    color: #F9FAF8;
+    max-width: 100px;
+    border-radius: 4px;
+    padding: 4px;
+    border-style: none;
 }
